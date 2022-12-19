@@ -9,7 +9,7 @@ Adds keyboard navigation hotkeys to crosswords on https://freecrosswordpuzzles.c
 https://addons.mozilla.org/en-US/firefox/addon/fcp-clue-hotkeys/
 
 # Chrome Extension
-..
+Pending approval on the store, but you can always install it manually from the files in the repo.
 
 # Package into .zip
 `web-ext build -o -a .`
