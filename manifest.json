@@ -1,15 +1,20 @@
 {
 
-  "manifest_version": 2,
-  "name": "freecrosswordpuzzles-ext",
+  "manifest_version": 3,
+  "name": "FreeCrosswordPuzzles Tab Navigation",
   "version": "1.0",
 
-  "description": "adds tab button navigation to crosswords on https://freecrosswordpuzzles.com.au",
+  "description": "Adds tab button navigation to crosswords on https://freecrosswordpuzzles.com.au.",
+
+  "icons": {
+    "48": "icon.png",
+    "96": "icon.png"
+  },
 
   "content_scripts": [
     {
       "matches": ["https://freecrosswordpuzzles.com.au/*"],
-      "js": ["extension.js"]
+      "js": ["fcp_tabnav.js"]
     }
   ]
 

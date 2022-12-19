@@ -1,3 +1,6 @@
+// The code below might be messy, 
+// but I just wanted to hack something useful together
+
 const clueBoxes = getClueBoxes();
 const acrossClueNumbers = getClues("frAcross");
 const downClueNumbers = getClues("frDown");

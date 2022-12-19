@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1"
+    style="fill: none;" viewBox="112.5 37.5 210 270" height="48" width="48">
+    <path d=""
+        style="stroke-width: 15; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(106, 106, 106); fill: none;" />
+    <path d=""
+        style="stroke-width: 15; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(74, 74, 74); fill: none;" />
+    <path
+        d="M120,45 L120,45 L120,165 M180,165 L180,165 L120,105 L180,45 Z M180,105 L180,105 L315,105 M315,300 L315,300 L315,180 M255,180 L255,180 L315,240 L255,300 Z M255,240 L255,240 L120,240 "
+        style="stroke-width: 15; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(10, 10, 10); fill: none;" />
+</svg>
