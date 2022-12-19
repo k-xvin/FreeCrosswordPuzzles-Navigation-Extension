@@ -4,5 +4,5 @@ Adds keyboard navigation hotkeys to crosswords on https://freecrosswordpuzzles.c
 * Shift + Tab/Enter to move backward a clue
 
 
-# Build for Firefox
+# Package into .zip
 `web-ext build -o -a .`
