@@ -1,0 +1,28 @@
+{
+
+  "manifest_version": 3,
+  "name": "Crossword Clue Navigation Hotkeys",
+  "version": "1.0.2",
+
+  "description": "Adds keyboard navigation hotkeys to crosswords on https://freecrosswordpuzzles.com.au.",
+
+  "icons": {
+    "48": "icons/128.png",
+    "96": "icons/128.png"
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "fcp_nav@example.com",
+      "strict_min_version": "48.0"
+    }
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://freecrosswordpuzzles.com.au/*"],
+      "js": ["fcp_nav.js"]
+    }
+  ]
+
+}
