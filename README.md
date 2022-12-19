@@ -8,6 +8,8 @@ Adds keyboard navigation hotkeys to crosswords on https://freecrosswordpuzzles.c
 # Firefox Add-on
 https://addons.mozilla.org/en-US/firefox/addon/fcp-clue-hotkeys/
 
+# Chrome Extension
+..
 
 # Package into .zip
 `web-ext build -o -a .`
