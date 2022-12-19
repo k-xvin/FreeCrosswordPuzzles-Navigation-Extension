@@ -39,12 +39,28 @@ const Mode = {
 }
 let currentMode = Mode.ACROSS;
 document.getElementById("tblCrossword").addEventListener("click", (event) => {
-    // The down/across mode flips when you click a box
-    currentMode = !currentMode;
-    
+    // The down/across mode flips when you click a box 
+    // but not when it is a BLACK BOX
+    // currentMode = !currentMode;
+
+    // we can just check which clue list has a highlighted clue in it instead
+    // this is more consistent
+    currentMode = getCurrentMode();
+
     // depending on where someone clicked, update the position
     currentClueNumber = getCurrentClue();
 });
+
+function getCurrentMode() {
+    const divCluesAcross = document.getElementById("frAcross").contentWindow.document.getElementsByTagName("div");
+    for (let i = 0; i < divCluesAcross.length; i++) {
+        let d = divCluesAcross[i];
+        if (d.style.backgroundColor) {
+            return Mode.ACROSS;
+        }
+    }
+    return Mode.DOWN;
+}
 
 function getCurrentClue() {
     if (currentMode == Mode.ACROSS) {
@@ -107,7 +123,7 @@ function doubleClick(element) {
 }
 
 document.addEventListener("keydown", (event) => {
-    if (event.key == 'Tab') {
+    if (event.key == 'Tab' || event.key == 'Enter') {
         if (event.shiftKey) { // shift+tab
             if (currentMode == Mode.ACROSS) {
                 traversePrev(acrossClueNumbers);

@@ -1,18 +1,19 @@
 {
 
   "manifest_version": 2,
-  "name": "FreeCrosswordPuzzles Tab Navigation",
-  "version": "1.0",
+  "name": "FreeCrosswordPuzzles Clue Navigation Hotkeys",
+  "version": "1.0.2",
 
-  "description": "Adds tab button navigation to crosswords on https://freecrosswordpuzzles.com.au.",
+  "description": "Adds keyboard navigation hotkeys to crosswords on https://freecrosswordpuzzles.com.au.",
 
   "icons": {
-    "48": "icons/icon.png"
+    "48": "icons/128.png",
+    "96": "icons/128.png"
   },
 
   "browser_specific_settings": {
     "gecko": {
-      "id": "fcp_tab_nav@example.com",
+      "id": "fcp_nav@example.com",
       "strict_min_version": "48.0"
     }
   },
@@ -20,7 +21,7 @@
   "content_scripts": [
     {
       "matches": ["https://freecrosswordpuzzles.com.au/*"],
-      "js": ["fcp_tabnav.js"]
+      "js": ["fcp_nav.js"]
     }
   ]
 

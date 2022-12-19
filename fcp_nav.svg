@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1"
+    style="fill: none; width: 1035px; height: 525px;" viewBox="334 94 262 262">
+    <path d=""
+        style="stroke-width: 15; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(106, 106, 106); fill: none;">
+    </path>
+    <path d="M465,225 L465,225 L465,345 M585,225 L585,225 L465,225 "
+        style="stroke-width: 15; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(255, 68, 51); fill: none;">
+    </path>
+    <path
+        d="M345,105 L345,105 L345,345 L585,345 L585,105 Z M345,225 L345,225 L465,225 L465,105 L345,105 M525,165 L525,165 L525,285 L405,285 M495,195 L495,195 L525,165 L555,195 M435,255 L435,255 L405,285 L435,315 "
+        style="stroke-width: 22; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(0, 0, 0); fill: none;">
+    </path>
+</svg>
