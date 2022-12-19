@@ -5,7 +5,7 @@ This extension adds tab key shortcuts to freecrosswordpuzzles.com.au, similar to
 * Shift + Tab to move backwards a clue
 
 # Firefox
-1. Download and install (signed add-on): https://addons.mozilla.org/firefox/downloads/file/4045688/cada2f3aa4774e08b378-1.0.xpi
+1. Download and install the .xpi file (signed add-on) 
 
 # Installation
 1. Download the .zip file 
