@@ -1,8 +1,7 @@
 # Overview
-This extension adds tab key shortcuts to freecrosswordpuzzles.com.au, similar to the shortcuts found in the nytimes crosswords.
-
-* Tab to move forward a clue
-* Shift + Tab to move backwards a clue
+Adds keyboard navigation hotkeys to crosswords on https://freecrosswordpuzzles.com.au.
+* Tab/Enter to move forward a clue
+* Shift + Tab/Enter to move backward a clue
 
 
 # Build for Firefox
