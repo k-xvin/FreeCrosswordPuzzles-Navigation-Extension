@@ -1,3 +1,5 @@
+![nav logo](/icons/128.png?raw=true "Crossword Nav")
+
 # Overview
 Adds keyboard navigation hotkeys to crosswords on https://freecrosswordpuzzles.com.au.
 * Tab/Enter to move forward a clue
